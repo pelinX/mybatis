@@ -18,6 +18,7 @@
     </environment>
   </environments>
   <mappers>
-    <mapper resource="org/mybatis/example/dao/UserMapper.xml"/>
+     <mapper resource="org/mybatis/example/dao/UserMapper.xml"/>
+     <mapper class="org.mybatis.example.dao.ActivitytypeMapper"/>  
   </mappers>
 </configuration>
